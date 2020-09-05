@@ -1,9 +1,16 @@
+body {
+  background-color: #e8bffb;
+  font-family: 'Merienda One', cursive;
+}
+
 .grid {
     border: 1px solid;
     display: flex;
     flex-wrap: wrap;
     height: 120px;
     width: 140px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .grid div {
@@ -33,11 +40,16 @@
   }
 
   .player-one {
-    background-color: red;
+    background-color: #f04848;
     border-radius: 10px;
   }
 
   .player-two {
-    background-color: blue;
+    background-color: #6998e4;
     border-radius: 10px;
   }
+
+.p1 {
+  font-family: 'Merienda One', cursive;
+  color: #ffffff;
+}
